@@ -2,9 +2,9 @@
 - name: Task Patch Automation
   hosts: App
   tasks:
-    - import_tasks: shared_playbook/Linux/stop_service.yml
-    - import_tasks: shared_playbook/Linux/backup.yml
-    - import_tasks: shared_playbook/Linux/prepare.yml
-    - import_tasks: shared_playbook/Linux/patching.yml
-    - import_tasks: shared_playbook/Linux/restart.yml
-    - import_tasks: shared_playbook/Linux/start_service.yml
+    - import_tasks: /shared_playbook/Linux/stop_service.yml
+    - import_tasks: /shared_playbook/Linux/backup.yml
+    - import_tasks: /shared_playbook/Linux/prepare.yml
+    - import_tasks: /shared_playbook/Linux/patching.yml
+    - import_tasks: /shared_playbook/Linux/restart.yml
+    - import_tasks: /shared_playbook/Linux/start_service.yml
