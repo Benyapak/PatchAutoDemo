@@ -1,0 +1,3 @@
+---
+- name: Backup OS
+  shell: rear -d -v mkbackup
